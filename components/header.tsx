@@ -17,7 +17,7 @@ export function Header() {
             <Image
               src="/cafe-producciones/cafe-producciones-logo.png"
               alt="Café Producciones"
-              width={40}
+              width={80}
               height={40}
               className="mr-3"
             />
