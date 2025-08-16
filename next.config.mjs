@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/CAFE_PRODUCCIONES' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/CAFE_PRODUCCIONES/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/cafe-producciones/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/cafe-producciones/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
