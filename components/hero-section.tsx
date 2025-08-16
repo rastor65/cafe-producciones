@@ -6,7 +6,7 @@ export function HeroSection() {
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video/Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/elegant-event.png" alt="Elegant event setup" className="w-full h-full object-cover" />
+        <img src="/cafe-producciones/elegant-event.png" alt="Elegant event setup" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/40"></div>
       </div>
 

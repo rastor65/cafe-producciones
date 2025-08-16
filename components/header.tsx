@@ -15,7 +15,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Image
-              src="/cafe-producciones-logo.png"
+              src="/cafe-producciones/cafe-producciones-logo.png"
               alt="Café Producciones"
               width={40}
               height={40}
