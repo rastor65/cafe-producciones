@@ -67,6 +67,12 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
+      - name: Build & Export
+        run: |
+          pnpm exec next build
+          pnpm exec next export
+          touch out/.nojekyll
+          
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
