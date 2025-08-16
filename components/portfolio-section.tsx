@@ -9,7 +9,7 @@ const portfolioItems = [
     id: 1,
     title: "Lanzamiento Corporativo Tech Summit",
     category: "Corporativo",
-    image: "/corporate-event-tech.png",
+    image: "/cafe-producciones/corporate-event-tech.png",
     description: "Evento de lanzamiento para empresa tecnológica con 500 asistentes",
   },
   {
